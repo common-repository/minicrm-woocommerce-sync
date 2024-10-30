@@ -1,0 +1,40 @@
+.minicrm-woocommerce-sync-btn {
+}
+
+.minicrm-woocommerce-sync-error {
+  color: red;
+}
+
+.minicrm-woocommerce-sync-success {
+  color: green;
+}
+
+.minicrm-woocommerce-sync-progress-text {
+  font-family: monospace;
+}
+
+@keyframes minicrm-woocommerce-sync-blink {
+  from {opacity: 1;}
+  to {opacity: .5;}
+}
+
+.minicrm-woocommerce-sync-progress-text.active {
+  animation: minicrm-woocommerce-sync-blink .5s linear infinite alternate;
+}
+
+.minicrm-woocommerce-sync-progress-bar {
+  border: 1px solid;
+  box-sizing: border-box;
+  display: none;
+  padding: 1px;
+}
+
+.minicrm-woocommerce-sync-progress-bar.active {
+  display: block;
+}
+
+.minicrm-woocommerce-sync-progress-bar-inside {
+  background: grey;
+  height: 1em;
+  transition: width .2s;
+}

@@ -1,0 +1,362 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MiniCRM "
+"WooCommerce Sync plugin "
+"v1.5.28\n"
+"POT-Creation-Date: 2022-05-30 "
+"22:22+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name "
+"<you@example.com>\n"
+"Language-Team: Márton Tamás "
+"<marton.tamas@webhelyesarcu."
+"hu>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: "
+"8bit\n"
+"Plural-Forms: nplurals=2; "
+"plural=n != 1;\n"
+"X-Textdomain-Support: yesX-"
+"Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;"
+"esc_html_e;esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_attr__;"
+"_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-"
+"SearchPathExcluded-0: *.js\n"
+
+#: includes/settings-sync.php:5
+msgid "Sync all shop orders"
+msgstr ""
+
+#: includes/settings-sync.php:9
+msgid "Test syncing"
+msgstr ""
+
+#: lib/Integration.php:175
+msgid "Full billing address"
+msgstr ""
+
+#: lib/Integration.php:176
+msgid "Full billing name"
+msgstr ""
+
+#: lib/Integration.php:177
+msgid "Full shipping address"
+msgstr ""
+
+#: lib/Integration.php:178
+msgid "Full shipping name"
+msgstr ""
+
+#: lib/Integration.php:201
+msgid ""
+"The number following \"r3."
+"minicrm.io/\" in the URL "
+"after logging into your "
+"MiniCRM account."
+msgstr ""
+
+#: lib/Integration.php:204
+msgid "eg. 12345"
+msgstr ""
+
+#: lib/Integration.php:205
+msgid "System ID"
+msgstr ""
+
+#: lib/Integration.php:211
+msgid ""
+"If you sync multiple shops "
+"into a single MiniCRM "
+"account, you need to set a "
+"unique shop ID for each "
+"WooCommerce shop to avoid one "
+"shop overwriting another "
+"one's orders. If you sync a "
+"single shop only, then leave "
+"it on 0."
+msgstr ""
+
+#: lib/Integration.php:214
+msgid "Shop ID"
+msgstr ""
+
+#: lib/Integration.php:220
+msgid ""
+"You can generate one in your "
+"MiniCRM account's Settings > "
+"System > API key > Create new "
+"API key"
+msgstr ""
+
+#: lib/Integration.php:221
+msgid "API key"
+msgstr ""
+
+#: lib/Integration.php:231
+msgid "MiniCRM account locale"
+msgstr ""
+
+#: lib/Integration.php:237
+msgid ""
+"The number following \"#!"
+"Project-\" in the URL after "
+"opening the Webshop module in "
+"your MiniCRM account"
+msgstr ""
+
+#: lib/Integration.php:240
+msgid "eg. 21"
+msgstr ""
+
+#: lib/Integration.php:241
+msgid "Category ID"
+msgstr ""
+
+#: lib/Integration.php:247
+msgid ""
+"The MiniCRM folder name for "
+"products imported along with "
+"webshop orders."
+msgstr ""
+
+#: lib/Integration.php:251
+msgid "eg. Webshop products"
+msgstr ""
+
+#: lib/Integration.php:254
+msgid "Folder name"
+msgstr ""
+
+#: lib/Integration.php:260
+msgid ""
+"Turning it on can help "
+"diagnose issues. It is "
+"recommended to turn it off "
+"during normal operation."
+msgstr ""
+
+#: lib/Integration.php:275
+msgid ""
+"You can map basic WooCommerce "
+"order data to MiniCRM fields "
+"here. Write one per line in "
+"the following format:\n"
+"<br><code>[WooCommerce data]:"
+"[MiniCRM field]</code>\n"
+"<br>\n"
+"<br>You can use the ones "
+"below as <code>[WooCommerce "
+"data]</code>:"
+msgstr ""
+
+#: lib/Integration.php:293
+#, php-format
+msgid ""
+"You can also try other "
+"WooCommerce order data at "
+"your own risk (look for "
+"<code>get...()</code> methods "
+"of <a href=\"%s\" target="
+"\"_blank\">WC_Order</a>.)."
+msgstr ""
+
+#: lib/Integration.php:302
+#: lib/Integration.php:335
+#, php-format
+msgid ""
+"You can use the text "
+"displayed as <em>Field label "
+"on HTML forms</em> while "
+"editing the custom fields of "
+"the <em>Order</em> module for "
+"a <code>[MiniCRM field]</"
+"code>. For example if you see "
+"<em>[Project.%1$s]</em> "
+"there, then use only <em>"
+"%1$s</em>.\n"
+"<br>\n"
+"<br>Separate the two fields "
+"in a single mapping with "
+"<code>:</code> (colon)."
+msgstr ""
+
+#: lib/Integration.php:307
+msgid "PostcodeOfShipping"
+msgstr ""
+
+#: lib/Integration.php:310
+msgid ""
+"Example:\n"
+"shipping_postcode:"
+"PostcodeOfShipping\n"
+"shipping_city:CityOfShipping"
+msgstr ""
+
+#: lib/Integration.php:315
+msgid "WooCommerce data mapping"
+msgstr ""
+
+#: lib/Integration.php:327
+msgid ""
+"You can map <em>Extra Product "
+"Options</em> data to MiniCRM "
+"fields here. Write one "
+"mapping per line in the "
+"following format:\n"
+"<br><code>[Product Option]:"
+"[MiniCRM field]</code>\n"
+"<br>\n"
+"<br>Use the label displayed "
+"to the customer as a "
+"<code>[Product Option]</code> "
+"(the one typed under "
+"<em>Label</em> on the "
+"<em>Extra Product Options</"
+"em> admin)!"
+msgstr ""
+
+#: lib/Integration.php:340
+msgid "TextOnTshirt"
+msgstr ""
+
+#: lib/Integration.php:344
+msgid ""
+"<strong>If you change the "
+"label of a product option</"
+"strong>, it's recommended "
+"that you keep the old mapping "
+"and add another one with the "
+"new label, since previous "
+"orders stored the product "
+"option with its old label."
+msgstr ""
+
+#: lib/Integration.php:348
+msgid ""
+"Example:\n"
+"T-shirt text:TextOnTshirt\n"
+"Extended warranty:"
+"ExtendedWarranty"
+msgstr ""
+
+#: lib/Integration.php:354
+msgid ""
+"Extra Product Options mapping"
+msgstr ""
+
+#: lib/Integration.php:367
+msgid ""
+"The API key is required and "
+"should consist of 32 "
+"alphanumeric characters. "
+"Please type the correct "
+"setting."
+msgstr ""
+
+#: lib/Integration.php:380
+msgid ""
+"The category ID is required "
+"and should consist of digits "
+"only. Please type the correct "
+"setting."
+msgstr ""
+
+#: lib/Integration.php:393
+msgid ""
+"The folder name is required. "
+"Please type the correct "
+"setting."
+msgstr ""
+
+#: lib/Integration.php:406
+msgid ""
+"The System ID is required and "
+"should consist of digits "
+"only. Please type the correct "
+"setting."
+msgstr ""
+
+#: lib/Integration.php:426
+#, php-format
+msgid ""
+"The following WooCommerce "
+"mappings are invalid: %s"
+msgstr ""
+
+#: lib/Integration.php:439
+#, php-format
+msgid ""
+"The following MiniCRM "
+"mappings are invalid: %s"
+msgstr ""
+
+#: lib/Plugin.php:48
+#, php-format
+msgid ""
+"The plugin is not yet tested "
+"on Wordpress version %s."
+msgstr ""
+
+#: lib/Plugin.php:59
+#, php-format
+msgid ""
+"PHP extension \"%s\" is "
+"required, but not loaded on "
+"your installation."
+msgstr ""
+
+#: lib/Plugin.php:314
+msgid ""
+"The sync hasn't finished yet. "
+"Are you sure to leave and "
+"abort it?"
+msgstr ""
+
+#: lib/Plugin.php:317
+msgid ""
+"An unexpected <strong class="
+"\"minicrm-woocommerce-sync-"
+"error\">error occured</"
+"strong>, the sync was "
+"aborted. (Please check the "
+"Sync log)."
+msgstr ""
+
+#: lib/Plugin.php:320
+#, php-format
+msgid ""
+"Finished syncing all (%s) "
+"projects. <strong class="
+"\"minicrm-woocommerce-sync-"
+"success\">No error</strong> "
+"occured, but complete success "
+"can only be verified from the "
+"Sync log."
+msgstr ""
+
+#: lib/Plugin.php:323
+msgid ""
+"<strong>Syncing</strong>... %s"
+"% Remaining time: %s Keep the "
+"window open to finish."
+msgstr ""
